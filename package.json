@@ -1,9 +1,13 @@
 {
   "name": "tutorial",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.4.0"
+  },
   "description": "following instructions",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha"
   },
   "author": "Dustin Keyes",
