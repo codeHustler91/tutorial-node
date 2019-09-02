@@ -4,7 +4,7 @@ exports.up = function(knex) {
         student.increments('id')
         student.integer('grade')
         student.string('name')
-        student.boolean('isGood?')
+        student.boolean('isGood')
     })
 };
 
